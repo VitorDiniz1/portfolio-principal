@@ -1,0 +1,150 @@
+.contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.contact-col{
+    flex-basis: 40%;
+    color: #676767;
+}
+
+.contact-col h3{
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-col h3 svg{
+    font-size:30px;
+    margin-left: 10px;
+}
+
+.contact-col p{
+    max-width: 600px;
+    font-size:16px;
+    color: #fffaf6;
+    line-height: 1.3;
+}
+
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size:25px;
+}
+
+
+.contact-col ul li svg{
+    margin-right: 10px; 
+}
+
+
+.contact-col ul .link-linkedin:hover{
+    color: #0A66C2;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.contact-col ul .link-github:hover{
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.contact-col ul .link-email:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+
+.contact-col ul .link-phone:hover{
+    color: green;
+    transition: 0.5s;
+}
+
+
+
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background: #fffaf6;
+    padding: 12px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+
+.contact-col .btn{
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+}
+
+.contact-col .btn:hover{
+    background: #c8662e;
+    color: #fffaf6;
+}
+
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
+
+
+@media (max-width:900px){
+    .contact{
+        display: block;
+        margin: 60px auto;
+    }
+
+    .contact-col{
+        padding: 20px;
+    }
+
+    .contact-col h3{
+        font-size: 35px;
+    }
+    .contact-col h3 svg{
+        font-size: 35px;
+    }
+
+    .contact-col p{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:450px){
+    .contact{
+        margin: 40px auto;
+    }
+
+    .contact-col h3{
+        font-size: 20px;
+    }
+    .contact-col h3 svg{
+        font-size: 20px;
+    }
+
+    .contact-col p{
+        max-width: 400px;
+        font-size: 14px;
+    }
+
+
+    .contact-col ul li{
+        max-width: 400px;
+        font-size: 14px;
+    }
+}

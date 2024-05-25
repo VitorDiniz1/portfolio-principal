@@ -1,0 +1,161 @@
+
+
+
+.container-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh; 
+    flex-direction: column;
+    color: #fff;
+    margin: 80px auto;
+  }
+
+  .container-hero .typing{
+    font-size: 30px;
+    width: 50ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(50) forwards; 
+    text-align: center;
+}
+
+@keyframes typing {
+    from { width: 0ch; }
+    to { width: 50ch; } 
+}
+
+.container-hero .typing h1{
+    white-space: nowrap;
+    font-size: 60px;
+}
+
+.container-hero .typing2{
+    width: 50ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(50) forwards; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+@keyframes typing2 {
+    from { width: 0ch; }
+    to { width: 50ch; } 
+}
+
+.container-hero .typing2 h3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #fffaf6;
+}
+
+.container-hero .typing3{
+    font-size: 30px;
+    width: 50ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 6s steps(50) forwards; 
+    text-align: center;
+    
+}
+
+@keyframes typing3 {
+    from { width: 0ch; }
+    to { width: 50ch; } 
+}
+
+.container-hero .typing3 p{
+    margin-bottom: 50px;
+    color: #c8662e;
+    font-size: 30px; 
+}
+
+.container-hero span {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.container-hero span:hover {
+    color: #c8662e;
+    cursor: pointer; 
+    transition: color 0.3s ease;
+}
+
+
+.social-midias{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.social-midias svg{
+    margin: 0 10px;
+    transition: transform 0.3s ease ;
+    
+}
+
+.social-midias svg:hover{
+    transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 750px) {
+
+    
+    .container-hero .typing,
+    .container-hero .typing2,
+    .container-hero .typing3 {
+        font-size: 30px;
+        width: auto;
+    }
+
+    .container-hero .typing h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .container-hero .typing2 h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .container-hero .typing3 p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .container-hero .typing,
+    .container-hero .typing2,
+    .container-hero .typing3 {
+        font-size: 15px; 
+        width: 100%;
+    }
+
+    .container-hero .typing h1 {
+        font-size: 30px; 
+        margin-bottom:0 ; 
+    }
+
+    .container-hero .typing2 h3 {
+        font-size: 18px; 
+        margin-bottom: 15px; 
+    }
+
+    .container-hero .typing3 p {
+        font-size: 18px; 
+        margin-bottom: 15px;
+    }
+
+    .social-midias svg{
+        margin-top: 20px;
+        
+    }
+}
+
+
+
+
