@@ -25,9 +25,17 @@ function Hero(){
                     <Link to='https://github.com/VitorDiniz1' target= '_blank'>
                         <FaGithub color='black' size={40} />
                     </Link> 
-                    <Link to='https://1drv.ms/b/c/6876fafaa62bd56c/EU9Du7LCnplMhmxgHafY8csBxvgYTuFy0Xgc9qCW0vkPSQ?e=hqJnLc' target= '_blank'>
-                        <GrDocumentPdf color='#FF0000' size={30}  />
-                    </Link> 
+                    <button
+                        onClick={() => {
+                        const link = document.createElement("a");
+                        link.href = "/curriculo-principal.pdf"; // Caminho relativo ao arquivo dentro da pasta public
+                        link.download = "curriculo-principal.pdf"; // Nome do arquivo no download
+                        link.click();
+                        }}
+                        style={{ background: 'none', border: 'none', cursor: 'pointer' }}
+                    >
+                    <GrDocumentPdf color="#FF0000" size={30} />
+                    </button>
                 </div> 
             </div>
         </div>
