@@ -12,10 +12,12 @@ function About(){
             </div>
 
             <div className='about-right'>
-                <h1>Vitor Diniz Pereira da Silva</h1>
-                <p>👋 Olá! Meu nome é Vitor Diniz Pereira da Silva, mas pode me chamar de Vitor. É um prazer conhecê-lo!</p>
-                <p>👨‍💻 Ao longo do último ano, tenho trabalhado em projetos envolvendo JavaScript, React JS, Python e Bancos de dados.</p>
-                <p>🎓 Atualmente cursando Sistemas de Informação no Centro Universitário UniLaSalle</p>
+               <h1>Desenvolvedor Full Stack</h1>
+               <p>👋 Olá! Meu nome é Vitor Diniz Pereira da Silva,mas pode me chamar de Vitor. Sou um desenvolvedor Full Stack apaixonado por tecnologia e inovação. Tenho experiência no desenvolvimento de sistemas web
+                 e desktop,atuando tanto no front-end quanto no back-end. Atualmente, trabalho com Delphi, criando soluções eficientes e escaláveis.
+               </p>
+                <p>👨‍💻 Nos últimos anos, estive envolvido em projetos com Python, C#, .NET e React.js, sempre buscando expandir meu conhecimento e habilidades.</p>
+                <p>🎓 Estou atualmente cursando Sistemas de Informação no Centro Universitário UniLaSalle, com previsão de formatura em 2026.</p>
             </div>
 
         </div>

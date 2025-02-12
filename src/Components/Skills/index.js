@@ -11,6 +11,8 @@ import { FaCss3Alt } from "react-icons/fa"
 import { FaJava } from "react-icons/fa"
 
 import c from '../../assets/letter_c_PNG22.png'
+import csharp from '../../assets/csharp.png'
+import delphi from '../../assets/delphi.png'
 
 function Skills(){
     return(
@@ -18,12 +20,15 @@ function Skills(){
             <span>Techs que uso no dia a dia</span>
             <div className='img-linguagem'>
                 <FaReact size={70} color='blue' className='linguagem1'/>
-                <AiOutlineConsoleSql size={70} color='white'className='linguagem1' />
-                <FaPython size={70} color='yellow'className='linguagem1' />
-                <IoLogoJavascript size={70} color='yellow'className='linguagem1' />
-                <FaCss3Alt size={70} color='blue' className='linguagem1' />
+                <img src={csharp} className='linguagem' />
+                <FaPython size={70} color='yellow' className='linguagem1'/>
+                <IoLogoJavascript size={70} color='yellow' className='linguagem1'/>
+                <AiOutlineConsoleSql size={70} color='white' className='linguagem1'/>
+                <img src={delphi} className='linguagem' />
+                <FaCss3Alt size={70} color='blue' className='linguagem1'/>
                 <FaHtml5 size={70} color='red' className='linguagem1'/>
             </div>
+
 
             <span>Outras tags que ja realizei projetos</span>
                 <div className='img-linguagem'>
