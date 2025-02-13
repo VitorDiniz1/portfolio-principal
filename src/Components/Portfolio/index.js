@@ -5,6 +5,7 @@ import { IoLogoJavascript } from "react-icons/io"
 import portfolio from '../../assets/img-port.png'
 import portfolio2 from '../../assets/port-img2.png'
 import portfolio3 from '../../assets/img-port3.png'
+import portfolio4 from '../../assets/img-port4.png'
 import { Link } from 'react-router-dom'
 
 
@@ -39,6 +40,16 @@ function Portfolio() {
                         <div className='overlay-col'>
                             <FaReact />
                             <button>Acesse <FaGithub /> </button>
+                        </div>
+                </div>
+                </div>
+                </Link>
+                <Link to='https://pensebem.vercel.app/' target='_blank'>
+                <div className='img-port' style={{ backgroundImage: `url(${portfolio4})` }}>
+                <div className='img-overlay'>
+                        <div className='overlay-col'>
+                            <IoLogoJavascript color='yellow' />
+                            <button style={{color:'#B8860B'}}>Acesse <FaGithub /> </button>
                         </div>
                 </div>
                 </div>
