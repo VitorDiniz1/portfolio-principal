@@ -2,7 +2,7 @@
 
 import './about.css'
 
-import perfil from '../../assets/foto perfil.jpg'
+import perfil from '../../assets/foto-perfil.jpg'
 
 function About(){
     return(
