@@ -38,11 +38,10 @@ p,span,a,li{
 
 .btn{
     text-decoration: none;
-    text-transform: uppercase;
     overflow: hidden;
     transition: .5s;
     letter-spacing: 4px;
-    border-radius: 5px;
+    border-radius: px;
 }
 
 a{

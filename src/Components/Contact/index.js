@@ -65,13 +65,13 @@ function Contact(){
 
             <div className='contact-col'>
             <form onSubmit={onSubmit}>
-                    <label>Your name</label>
-                    <input type='text' name='name' placeholder='Enter your name' required />
-                    <label>Your e-mail</label>
-                    <input type='email' name='email' placeholder='Enter your email' required />
-                    <label>Write your messages here</label>
-                    <textarea name='message'rows='6' placeholder='Enter your message' required ></textarea>
-                    <button type='submit' className='btn' >Submit now</button>
+                    <label>Seu nome</label>
+                    <input type='text' name='name' placeholder='Escreva seu nome' required />
+                    <label>Seu e-mail</label>
+                    <input type='email' name='email' placeholder='Escreva seu e-mail' required />
+                    <label>Escreva sua mensagem</label>
+                    <textarea name='message'rows='6' placeholder='Escreva uma mensagem' required ></textarea>
+                    <button type='submit' className='btn' >Enviar</button>
                 </form>
                 <span>{result}</span>
 
