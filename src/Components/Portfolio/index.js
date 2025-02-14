@@ -14,7 +14,7 @@ function Portfolio() {
     return (
         <div className='portfolio'>
             <div className='img-portfolios'>
-                <Link to='https://projeto-loja-theta.vercel.app/' target='_blank'>
+                <Link to='https://cardapio-tau-snowy.vercel.app//' target='_blank'>
                 <div className='img-port' style={{ backgroundImage: `url(${portfolio})` }}>
                     <div className='img-overlay'>
                         <div className='overlay-col'>
